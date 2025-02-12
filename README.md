@@ -34,24 +34,6 @@ Write an assembly language program for the 8085 microprocessor to find the squar
 | 5  | There are 40 8-bit numbers in a table with address starting from 9090H, Write a program in 8085 to transfer these numbers to another table with address from A010H if lower nibble of a number is greater than higher nibble, Otherwise ;transfer by setting bit D2 and resetting bit D6. | [9_compare_upper_and_lower_nibble_and_table_transfer.asm](9_compare_upper_and_lower_nibble_and_table_transfer.asm) |
 
 
-## ⚙️ Requirements  
-
-- **8085 Microprocessor Emulator** (e.g., GNUSim8085, EMU8085, or any online simulator)  
-- Basic knowledge of **8085 Assembly Language**  
-
-## 🚀 How to Use  
-
-1. Clone the repository:  
-   ```sh
-   git clone https://github.com/your-username/8085-Microprocessor-Basic-Programs.git
-
-
-## ⚙️ How to Run the Programs
-1. Use an 8085 simulator like **GNUSim8085**, **Emu8085**, or **Intel 8085 Simulator**.
-2. Load the `.asm` file into the simulator.
-3. Assemble and execute the program.
-4. Observe the results in memory or registers.
-
 ## 📖 Resources
 - [8085 Instruction Set](https://en.wikipedia.org/wiki/Intel_8085)
 - [8085 Microprocessor Architecture](https://www.tutorialspoint.com/microprocessor/microprocessor_8085_architecture.htm)
