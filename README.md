@@ -2,16 +2,6 @@
 
 This repository contains basic assembly language programs for the 8085 microprocessor. These programs cover various fundamental operations and problem-solving techniques useful for learning and understanding 8085 assembly programming.
 
-## 📜 Overview
-The programs in this repository demonstrate:
-- Arithmetic operations (Addition, Subtraction, Multiplication, Division)
-- Logical operations (AND, OR, XOR, NOT)
-- Data transfer and manipulation
-- Control flow using loops and conditional statements
-- Memory handling and storage operations
-
-Each program is implemented with proper comments to enhance readability and understanding.
-
 ---
 
 ## 📂 List of Programs  
