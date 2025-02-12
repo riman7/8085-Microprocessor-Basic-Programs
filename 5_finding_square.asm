@@ -8,7 +8,7 @@ LOOP:
 	MOV A,M
 	CPI 0FH
 	JC SKIP
-                        CALL SQR
+	CALL SQR
 SKIP:   
 	STAX D       
 	INX H           ; Increment HL to point to the next source number
