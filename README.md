@@ -25,7 +25,7 @@ Write an assembly language program for the 8085 microprocessor to find the squar
 
 ## 📂 List of Programs  
 
-| #  | Problem Statement | File Link |
+| S.N.  | Problem Statement | File Link |
 |----|------------------|-----------|
 | 1  | Write an assembly language program for 8085 to find the square of ten 8-bit numbers which are less than or equals to 0FH, stored from memory location C090H, Store the result from the end of the source table. | [5_finding_square.asm](5_finding_square.asm) |
 | 2  |There are two tables holding twenty data whose starting address is 9000H and 9020H respectively. WAP to add the content of the first table with the content of the second table having the same array index. Store sum and carry into the third and fourth table indexing from 9040H and 9060H respectively. | [square_numbers.asm](10_two_table_addition_and_store_sum_and_carry_in_table.asm) |
