@@ -4,24 +4,27 @@
                         LXI H, C090H
                         LXI D, C09AH
 
-LOOP:             MOV A,M
-                        CALL SQR        
-                  STAX D       
-            INX H           ; Increment HL to point to the next source number
-            INX D
-            MOV A,L
-            CPI 9AH
-            JNZ LOOP        ; Repeat the loop if B is not zero
-            HLT             ; Halt program
+LOOP:             
+	MOV A,M
+	CPI 0FH
+	JC SKIP
+                        CALL SQR
+SKIP:   
+	STAX D       
+	INX H           ; Increment HL to point to the next source number
+	INX D
+	MOV A,L
+	CPI 9AH
+	JNZ LOOP        ; Repeat the loop if B is not zero
+	HLT             ; Halt program
 
 
-SQR:        MOV B,A
-MOV C,A
-MVI A, 00h
-SQR_LOOP:
-ADD B
-DCR C
-JNZ SQR_LOOP
-RET
-
-HLT
+SQR:       
+	MOV B,A
+	MOV C,A
+	MVI A, 00h
+	SQR_LOOP:
+		ADD B
+		DCR C
+		JNZ SQR_LOOP
+	RET
