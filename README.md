@@ -23,16 +23,23 @@ Write an assembly language program for the 8085 microprocessor to find the squar
 - Store the result at the end of the source table.
 - Use a loop to repeat the process for ten numbers.
 
-## 📂 Repository Structure
-```
-8085-Microprocessor-Basic-Programs/
-│── README.md
-│── Program1.asm  # Square of numbers ≤ 0FH
-│── Program2.asm  # Addition of two 8-bit numbers
-│── Program3.asm  # Factorial of a number
-│── ...
-└── Resources/    # Additional references and documentation
-```
+## 📂 List of Programs  
+
+| #  | Problem Statement | File Link |
+|----|------------------|-----------|
+| 1  | Write an assembly language program for 8085 to find the square of ten 8-bit numbers which are less than or equals to 0FH, stored from memory location C090H, Store the result from the end of the source table. | [square_numbers.asm](5_finding_square.asm) |
+
+## ⚙️ Requirements  
+
+- **8085 Microprocessor Emulator** (e.g., GNUSim8085, EMU8085, or any online simulator)  
+- Basic knowledge of **8085 Assembly Language**  
+
+## 🚀 How to Use  
+
+1. Clone the repository:  
+   ```sh
+   git clone https://github.com/your-username/8085-Microprocessor-Basic-Programs.git
+
 
 ## ⚙️ How to Run the Programs
 1. Use an 8085 simulator like **GNUSim8085**, **Emu8085**, or **Intel 8085 Simulator**.
