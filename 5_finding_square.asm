@@ -1,8 +1,8 @@
 //Write an assembly language program for 8085 to find the square of ten //8-bit numbers which are less than or equals to 0FH, stored from memory //location C090H, Store the
 //result from the end of the source table.
 
-                        LXI H, C090H
-                        LXI D, C09AH
+	LXI H, C090H
+	LXI D, C09AH
 
 LOOP:             
 	MOV A,M
