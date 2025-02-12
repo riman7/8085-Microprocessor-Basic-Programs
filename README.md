@@ -12,16 +12,6 @@ The programs in this repository demonstrate:
 
 Each program is implemented with proper comments to enhance readability and understanding.
 
-## 📌 Example Problem
-### **Finding the Square of Ten 8-bit Numbers**
-**Problem Statement:**
-Write an assembly language program for the 8085 microprocessor to find the square of ten 8-bit numbers that are less than or equal to `0FH`. The numbers are stored in memory starting from `C090H`. The results should be stored at the end of the source table.
-
-**Solution Approach:**
-- Load numbers from memory.
-- Compute the square of each number.
-- Store the result at the end of the source table.
-- Use a loop to repeat the process for ten numbers.
 
 ## 📂 List of Programs  
 
@@ -41,9 +31,6 @@ Write an assembly language program for the 8085 microprocessor to find the squar
 
 ## 🛠️ Contributions
 Contributions are welcome! If you want to add new programs or improve existing ones, feel free to submit a pull request.
-
-## 📜 License
-This project is open-source and available under the **MIT License**.
 
 ---
 Happy Coding! 😊
