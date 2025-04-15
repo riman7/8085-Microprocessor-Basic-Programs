@@ -20,4 +20,4 @@ This repository contains basic assembly language programs for the 8085 microproc
 Contributions are welcome! If you want to add new programs or improve existing ones, feel free to submit a pull request.
 
 ---
-Happy Coding! 😊
+Happy Coding! 
